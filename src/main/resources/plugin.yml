@@ -1,0 +1,18 @@
+main: cn.thy646742.customprefix.CustomPrefix
+name: CustomPrefix
+version: 1.6.5
+author: thy646742
+
+softdepend: [PlaceholderAPI]
+
+commands:
+  customprefix:
+    description: Reloads the plugin!
+    usage: /<command> <reload>
+    permission: customprefix.customprefix
+    permission-message: §4You don't have the permission to use the command. Go ahead and get costomprefix.customprefix!
+  prefix:
+    description: Manages players' prefixes!
+    usage: /<command> <info|set|reset|list> <target> <slot> [prefix]
+    permission: customprefix.prefix
+    permission-message: §4You don't have the permission to use the command. Go ahead and get costomprefix.prefix!

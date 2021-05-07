@@ -1,0 +1,16 @@
+#the messages that will be displayed. You can config them to your own language or style.
+#use & for color code.
+#use {target} for color code, {slot} for prefix slot, {prefix} for prefix, and {number} for prefix numbers.
+messages:
+  syntax-incorrect: '&4The command syntax was incorrect! Use /help <command> for help!'
+  target-offline: '&4The target is currently offline or does not exist.'
+  plugin-enabled: 'Plugin enabled!'
+  plugin-disabled: 'Plugin disabled!'
+  reload-complete: '&bCustom Prefix reload complete!'
+  info-undefined: '&4The target info is currently undefined. Go ahead and set a prefix!'
+  get-info: '&6The prefix on slot &c{slot}&6 of &c{target}&6 is &r{prefix}&6!'
+  set-info: '&6The prefix on slot &c{slot}&6 of &c{target}&6 has been set to &r{prefix}&6!'
+  reset-info : '&6The prefix on slot &c{slot}&6 of &c{target}&6 has been reseted successfully!'
+  papi-not-found: 'Placeholder API not found! Plugin requies PlaceholderAPI to work!'
+  list-length: '&c{target}&6 has &c{number}&6 prefix(es)!'
+  get-list: '&6They are '
