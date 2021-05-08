@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$/lib/plugins</output-path>
     <root id="archive" name="PrefixPlugin.jar">
       <element id="module-output" name="prefix plugin" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/lib/spigot-1.12.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
