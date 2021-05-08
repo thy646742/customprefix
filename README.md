@@ -38,6 +38,8 @@
   '槽位' : '格式'
 ```
 ## 其他
+- 使用了SagaciousZed的ConfigAccessor.java做了自定义配置文件<br>
+  [https://gist.github.com/SagaciousZed/3174347#file-configaccessor-java-L2](https://gist.github.com/SagaciousZed/3174347#file-configaccessor-java-L2)
 - 刚学这系列东西，可能有些地方代码规范不好或者不够优化，欢迎各种建议
 - github新人，这里有啥规矩还不太懂，只是想把源代码公开来，供他人参考修改，有什么不妥的地方请谅解qwq
 - 因为功能就这么点，以后应该很少会更新
