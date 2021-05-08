@@ -1,32 +1,32 @@
 # Custom Prefix
 ## 介绍
 一个简单的聊天插件，可以设置并储存玩家的前缀并保存<br>
-每个玩家可以设置任意数量的前缀，每一个前缀都有一个键(slot)和一个值(prefix)
-特点就是玩家的前缀不是直接放到聊天上，而是作为papi变量被聊天管理插件读取
-这样非常方便，因为你可以统一管理多个前缀，并在聊天管理插件中统一管理
-有趣的是，这个东西不仅能储存玩家的前缀，还能储存任何关于玩家的信息（比如手机号码）
+每个玩家可以设置任意数量的前缀，每一个前缀都有一个键(slot)和一个值(prefix)<br>
+特点就是玩家的前缀不是直接放到聊天上，而是作为papi变量被聊天管理插件读取<br>
+这样非常方便，因为你可以统一管理多个前缀，并在聊天管理插件中统一管理<br>
+有趣的是，这个东西不仅能储存玩家的前缀，还能储存任何关于玩家的信息（比如手机号码）<br>
 
 ## 命令
 `/customprefix reload` : 重载配置文件
 
-`/prefix info <target> <slot>` : 查看目标的slot槽位中的内容
-`/prefix set <target> <slot> <prefix>` : 把目标slot槽位上的值设为prefix
-`/prefix reset <target> <slot>` : 清除目标slot槽位上的值
-`/prefix list <target>` : 列出目标的所有前缀
+`/prefix info <target> <slot>` : 查看目标的slot槽位中的内容<br>
+`/prefix set <target> <slot> <prefix>` : 把目标slot槽位上的值设为prefix<br>
+`/prefix reset <target> <slot>` : 清除目标slot槽位上的值<br>
+`/prefix list <target>` : 列出目标的所有前缀<br>
 
 ## 权限
 
 ## PlaceholderAPI
-其他插件可以通过PlaceholderAPI变量来读取玩家前缀
-`%customprefix_slot%` 会返回玩家slot槽位中的变量
-比如我在槽位test中的前缀是[TEST]，`%customprefix_test%`返回的就是[TEST]
+其他插件可以通过PlaceholderAPI变量来读取玩家前缀<br>
+`%customprefix_slot%` 会返回玩家slot槽位中的变量<br>
+比如我在槽位test中的前缀是[TEST]，`%customprefix_test%`返回的就是[TEST]<br>
 
 ## Config.yml
-几乎没什么东西，就是一些消息的自定义
+几乎没什么东西，就是一些消息的自定义<br>
 
 ## Data.yml
-储存着玩家的前缀
-格式为
+储存着玩家的前缀<br>
+格式为<br>
 ```yaml
 玩家 :
   '槽位' : '格式'
