@@ -15,6 +15,8 @@
 `/prefix list <target>` : 列出目标的所有前缀<br>
 
 ## 权限
+`customprefix.customprefix` : 使用/customprefix命令
+`customprefix.prefix` : 使用/prefix命令
 
 ## PlaceholderAPI
 其他插件可以通过PlaceholderAPI变量来读取玩家前缀<br>
